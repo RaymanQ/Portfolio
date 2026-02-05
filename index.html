@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raihan Salman Baehaqi | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-text">INITIALIZING SYSTEM...</div>
+        <div class="loading-bar">
+            <div class="loading-progress"></div>
+        </div>
+        <div class="loading-percent" id="loadingPercent">0%</div>
+    </div>
+
+    <!-- Matrix Rain Background -->
+    <canvas id="matrix-bg"></canvas>
+    
+    <!-- Hex Pattern -->
+    <div class="hex-pattern"></div>
+    
+    <!-- Scan Lines -->
+    <div class="scanlines"></div>
+    
+    <!-- Vignette -->
+    <div class="vignette"></div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <div class="avatar-container">
+                <div class="avatar-ring"></div>
+                <div class="avatar">
+                    <span class="avatar-icon">👨‍💻</span>
+                </div>
+            </div>
+            <h1 class="username" data-text="RAIHAN SALMAN BAEHAQI">RAIHAN SALMAN BAEHAQI</h1>
+            <p class="tagline">
+                <span class="typing-text">$ ./security_researcher --mode=ethical</span>
+            </p>
+            <div class="status">
+                <span class="status-dot"></span>
+                <span>SYSTEM ONLINE</span>
+            </div>
+        </div>
+
+        <!-- Links -->
+        <div class="links-container">
+            <a href="#" target="_blank" class="link-btn" data-link="website">
+                <div class="link-icon">🌐</div>
+                <div class="link-text">
+                    <div class="link-title">MY WEBSITE | COMING SOON...</div>
+                    <div class="link-subtitle">Personal Portfolio</div>
+                </div>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://github.com/RaihanSalmanBaehaqi" target="_blank" class="link-btn" data-link="github">
+                <div class="link-icon">⚡</div>
+                <div class="link-text">
+                    <div class="link-title">GITHUB</div>
+                    <div class="link-subtitle">Code Repository</div>
+                </div>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/raihansalmanbaehaqi" target="_blank" class="link-btn" data-link="linkedin">
+                <div class="link-icon">💼</div>
+                <div class="link-text">
+                    <div class="link-title">LINKEDIN</div>
+                    <div class="link-subtitle">Professional Network</div>
+                </div>
+                <span class="link-arrow">→</span>
+            </a>
+
+            <a href="https://www.instagram.com/raihansalman.b?igsh=MTdvbmhhaXN0aHJqMg==" target="_blank" class="link-btn" data-link="instagram">
+                <div class="link-icon">📸</div>
+                <div class="link-text">
+                    <div class="link-title">INSTAGRAM</div>
+                    <div class="link-subtitle">Social Media</div>
+                </div>
+                <span class="link-arrow">→</span>
+            </a>
+        </div>
+
+        <!-- Terminal Footer -->
+        <div class="terminal-footer">
+            <div class="terminal-header">
+                <div class="terminal-dot red"></div>
+                <div class="terminal-dot yellow"></div>
+                <div class="terminal-dot green"></div>
+            </div>
+            <div class="terminal-content">
+                <div class="terminal-line"><span class="terminal-prompt">visitor@raihansb:~$</span> <span class="terminal-command">whoami</span></div>
+                <div class="terminal-line">→ Computer Engineering Student</div>
+                <div class="terminal-line">→ Software, Hardware, Cybersecurity, AI Enthusiast</div>
+                <div class="terminal-line"><span class="terminal-prompt">visitor@raihansb:~$</span> <span class="terminal-cursor"></span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
